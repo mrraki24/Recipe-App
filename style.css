@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+h1{
+    margin-top:20px;
+}
+
+.search-box{
+    margin:20px;
+}
+
+input{
+    padding:10px;
+    width:250px;
+}
+
+button{
+    padding:10px 20px;
+    background:orange;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkorange;
+}
+
+.recipe-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.recipe-card{
+    background:white;
+    width:250px;
+    margin:15px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.recipe-card h3{
+    margin:10px 0;
+}
