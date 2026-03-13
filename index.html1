@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipe App</title>
-    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -17,11 +17,9 @@
     </div>
 
     <div id="recipeContainer" class="recipe-container"></div>
-     <h1>helli
-        
-     </h1>
+
 </div>
 
-<script src="script.js"></script>
+
 </body>
 </html>
